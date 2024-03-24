@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300'); 
+@font-face {
+    font-family: 'Mifuente'; /* Puedes cambiar 'MiFuente' al nombre que prefieras */
+    src: local('Mifuente'), url('../../fonts/Merienda-Black.ttf') format('truetype'); /* Ruta de la fuente local y remota */   
+  }
+
+.container {
+    position: fixed;
+    top: 0% ;
+    width: 100%;
+    height: 137px;
+    background-color: black;
+    border-bottom: 6px groove gray;
+    z-index: 9999; /* Establece el contenedor al frente */
+}
+
+.image {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    width: 20%;
+    height: auto;
+}
+
+.menu {
+    display: inline-flex;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 23%;
+    right: 25%;
+    /* background-color:darkslategrey; */
+}
+
+.estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    color:white;
+    font-size: 25px; 
+    font-family: 'Mifuente';
+
+}
+
+.estilo:hover {
+    color: rgb(210, 50, 50);
+    border-bottom: 1px solid rgb(210, 50, 50);
+   
+    
+}
+
+.social {
+    display: inline-flex;
+    position: absolute;
+    width: 17%;
+    height: 50%;
+    top: 29%;
+    right: 3%;
+    
+    /* background-color:rgb(190, 66, 143); */
+}
+
+.icontwitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+    color: #777; 
+    font-size: 30px;
+    transition: color 0.3s;
+    transition: transform 0.3s;
+  }
+  
+  .icontwitter:hover {
+    color: #1da1f2;
+    transform: scale(1.2);
+  }
+  
+  .iconfacebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+    color: #777;
+    font-size: 30px;
+    transition: color 0.3s;
+    transition: transform 0.3s; 
+  }
+  
+  .iconfacebook:hover {
+    color: #1877f2;
+    transform: scale(1.2);
+  }
+  
+  .iconinstagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+    color: #777;
+    font-size: 30px; 
+    transition: color 0.3s;
+    transition: transform 0.3s; 
+  }
+  
+  .iconinstagram:hover {
+    color: #bc2a8d;
+    transform: scale(1.2);
+  }
+  
+  .iconyoutube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+    color: #777;
+    font-size: 30px;
+    transition: color 0.3s;
+    transition: transform 0.3s;
+  }
+  
+  .iconyoutube:hover {
+    color: red;
+    transform: scale(1.2);
+  }
+  
+  .iconwhatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+    color: #777;
+    font-size: 30px; 
+    transition: color 0.3s;
+    transition: transform 0.3s;
+  }
+  
+  .iconwhatsapp:hover {
+    color: #25d366;
+    transform: scale(1.2);
+  }

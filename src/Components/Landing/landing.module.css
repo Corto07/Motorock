@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300'); 
+@font-face {
+  font-family: 'Mifont'; /* Puedes cambiar 'MiFuente' al nombre que prefieras */
+  src: local('Mifont'), url('../../fonts/UrbanJungleDEMO.otf') format('truetype'); /* Ruta de la fuente local y remota */   
+}
+
+.contenedor{ 
+  width: 100%;
+  height: auto;
+  background: #000000;
+  color: white;   
+}
+
+.fondo {
+  width: 100%;
+  height: auto;
+  background: #000000;
+}
+
+.titulo {
+  display: flex;
+  position: absolute;
+  font-family:'Mifont';
+  font-size: 40px;
+  top: 10%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; 
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); 
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.titulo1 {
+  display: flex;
+  position: absolute;
+  font-family:'Mifont';
+  font-size: 40px;
+  top: 10%;
+  left: 77.5%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; 
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); 
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.titulo2 {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+  font-family:'Mifont';
+  font-size: 30px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 2px black, 0 0 1em #026786, 0 0 0.2em blue;
+  opacity: 0; /* Inicialmente invisible */
+  animation: fadeInOut 5s ease infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0; /* Invisible al principio y al final */
+  }
+  50% {
+    opacity: 1; /* Visible a la mitad de la animación */
+  }
+}
+
+.social{
+  display: flex;
+  position: absolute;
+  top: 240%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icontwitter{
+  margin: 15px;
+  cursor: pointer;
+  color: #333; 
+  font-size: 54px;
+  transition: color 0.3s;
+  transition: transform 0.3s;
+}
+
+.icontwitter:hover {
+  color: #1da1f2;
+  transform: scale(1.2);
+}
+
+.iconfacebook{
+  margin: 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 54px;
+  transition: color 0.3s;
+  transition: transform 0.3s; 
+}
+
+.iconfacebook:hover {
+  color: #1877f2;
+  transform: scale(1.2);
+}
+
+.iconinstagram{
+  margin: 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 54px; 
+  transition: color 0.3s;
+  transition: transform 0.3s; 
+}
+
+.iconinstagram:hover {
+  color: #bc2a8d;
+  transform: scale(1.2);
+}
+
+.iconyoutube {
+  margin: 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 54px;
+  transition: color 0.3s;
+  transition: transform 0.3s;
+}
+
+.iconyoutube:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.iconwhatsapp{
+  margin: 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 54px; 
+  transition: color 0.3s;
+  transition: transform 0.3s;
+}
+
+.iconwhatsapp:hover {
+  color: #25d366;
+  transform: scale(1.2);
+}
+
+.boton{
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4px 15px;
+  font-size: 30px;
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  background-color:#333;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  transition: all, 500ms, ease;
+  border: 1px solid black;
+  outline: 1px solid white;
+  z-index: 0;
+  font-weight: 100;
+  letter-spacing: 4px;
+} 
+ 
+.boton:hover {
+  background: rgb(210, 50, 50);
+  box-shadow: 0 0 10px #020202;
+  transition-delay: 0,5ms;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+  font-weight: 600;
+  cursor: pointer; 
+  letter-spacing: 5px;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    background: #000000;
+  }
+  
+  .titulo {
+    display: flex;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 15.5%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+  }
+
+  .titulo2 {
+    display: flex;
+    display: inline-block;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7px;
+  }
+
+  .icontwitter,
+  .iconfacebook,
+  .iconinstagram,
+  .icontiktok,
+  .iconwhatsapp {
+    font-size: 5vw;
+    margin: 2vw;
+    display:flex;
+    position: relative;
+    display: inline-block;
+    top: -1600%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .boton {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    padding: 1px 5px;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    height: 28px;
+    width: 135px;
+    /* padding: 2vw 5vw; */
+    letter-spacing: 1vw;
+  }
+}
