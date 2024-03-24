@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300'); 
 @font-face {
     font-family: 'Mifuente'; /* Puedes cambiar 'MiFuente' al nombre que prefieras */
-    src: local('Mifuente'), url('../../fonts/Merienda-Black.ttf') format('truetype'); /* Ruta de la fuente local y remota */   
+    src: local('Mifuente'), url('../../Fonts/Merienda-Black.ttf') format('truetype'); /* Ruta de la fuente local y remota */   
   }
 
 .container {

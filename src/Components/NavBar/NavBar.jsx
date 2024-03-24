@@ -12,13 +12,13 @@ function NavBar () {
     
     
     <div className={style.menu}>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Nosotros</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Shows</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Discografia</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Fotos</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Videos</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Eventos</a>
-      <a className={style.estilo} href="/detail" rel="noreferrer">Contacto</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Nosotros</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Shows</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Discografia</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Fotos</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Videos</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Eventos</a>
+      <a className={style.estilo} href="/" rel="noreferrer">Contacto</a>
     </div>
     
     <div className={style.social}>

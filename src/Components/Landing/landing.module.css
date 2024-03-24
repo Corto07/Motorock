@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300'); 
 @font-face {
   font-family: 'Mifont'; /* Puedes cambiar 'MiFuente' al nombre que prefieras */
-  src: local('Mifont'), url('../../fonts/UrbanJungleDEMO.otf') format('truetype'); /* Ruta de la fuente local y remota */   
+  src: local('Mifont'), url('../../Fonts/UrbanJungleDEMO.otf') format('truetype'); /* Ruta de la fuente local y remota */   
 }
 
 .contenedor{ 
