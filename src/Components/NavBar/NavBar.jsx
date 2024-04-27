@@ -1,49 +1,30 @@
 import React from "react";
-import style from "../NavBar/navbar.module.css";
 import imgLogo from "../../Assets/Logo_motorock_white.png"
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
+import imgfondo from "../../Assets/fondo_navbar_1.jpg"
+
 
 function NavBar () {
-
     return (
-<div className={style.container}>
-    
-    <img className={style.image} src={imgLogo} alt="Logo Motorock"></img>
-    
-    
-    <div className={style.menu}>
-      <a className={style.estilo} href="/" rel="noreferrer">Nosotros</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Shows</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Discografia</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Fotos</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Videos</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Eventos</a>
-      <a className={style.estilo} href="/" rel="noreferrer">Contacto</a>
+
+    <div className="w-full h-auto flex items-center justify-center bg-cover bg-center"
+    style={{ backgroundImage: `url(${imgfondo})` }}
+    >
+        
+    <div className="w-[30%] bg-transparent">
+        <img className="w-[70%] ml-16 " src={imgLogo} alt="Logo Motorock"></img>
     </div>
     
-    <div className={style.social}>
-        <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
-            <FaTwitter className={style.icontwitter} />
-        </a>
-  
-        <a href="https://www.facebook.com/profile.php?id=100048964278841/" target="_blank" rel="noreferrer">
-            <FaFacebook className={style.iconfacebook} />
-        </a>
-  
-        <a href="https://www.instagram.com/motorock2023/" target="_blank" rel="noreferrer">
-            <FaInstagram className={style.iconinstagram} />
-        </a>
-
-        <a href="https://www.youtube.com/@Juan.Motorock/" target="_blank" rel="noreferrer">
-            <FaYoutube className={style.iconyoutube} />
-        </a>
-  
-       <a href="https://wa.me/+5492914199129" target="_blank" rel="noreferrer">
-          <FaWhatsapp className={style.iconwhatsapp} />
-        </a>      
+    <div className="w-[70%] font-Fuente1 italic text-[30px] bg-transparent flex items-center justify-end">
+      <a className=" text-white m-3 " href="/const" rel="noreferrer">Nosotros</a>
+      <a className=" text-white m-3 " href="/" rel="noreferrer">Shows</a>
+      <a className=" text-white m-3 " href="/" rel="noreferrer">Discografía</a>
+      <a className=" text-white m-3 " href="/" rel="noreferrer">Fotos</a>
+      <a className=" text-white m-3 " href="/" rel="noreferrer">Videos</a>
+      <a className=" text-white m-3 " href="/" rel="noreferrer">Eventos</a>
+      <a className=" text-white m-3  mr-20" href="/" rel="noreferrer">Contacto</a>
     </div>
-
-
+    
+    
 </div>
 );
 

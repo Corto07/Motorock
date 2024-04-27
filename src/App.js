@@ -1,15 +1,14 @@
-import './App.css';
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
 import Home from "../src/Components/Home/Home"
-import Landing from "./Components/Landing/Landing";
+import UnderConst from "./Pages/UnderConst/UnderConst";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="">
       <Routes>
-        <Route exact path='/' element={<Landing />} />
-        <Route path='/home' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
+        <Route path='/const' element={<UnderConst />} />
       </Routes>
 
     </div>

@@ -1,15 +1,12 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
-import style from "./home.module.css";
-
-
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
-function Home() { 
+const Home = () => { 
 
   return (
-    <div className={style.container}>
+    <div className="">
 
       <NavBar/>
       <Header/>
