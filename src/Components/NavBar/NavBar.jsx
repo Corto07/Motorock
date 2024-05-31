@@ -47,7 +47,7 @@ function NavBar () {
       </div>
 
         {/* Sidebar */}
-        <div className={`fixed xs:top-[11%] xsm:top-[13%] xsl:top-[15%] sm:hidden left-0 text-white w-96 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
+        <div className={`fixed xs:top-[11%] xsm:top-[11%] xsl:top-[13%] sm:hidden left-0 text-white w-96 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
             style={   
               { 
                 background:
@@ -73,7 +73,7 @@ function NavBar () {
         <div className="bg-transparent
     xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%]">
         <img className="xs:w-[50%] xsm:w-[50%] xsl:w-[50%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%]
-        xs:ml-[42%] xsm:ml-[44%] xsl:ml-[44%] sm:ml-[18%] md:ml-[20%] lg:ml-[20%] xl:ml-[18%]"
+        xs:ml-[42%] xsm:ml-[43%] xsl:ml-[43%] sm:ml-[18%] md:ml-[20%] lg:ml-[20%] xl:ml-[18%]"
         src={imgLogo} alt="Logo Motorock"></img>
     </div>
     
