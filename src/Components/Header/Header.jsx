@@ -11,7 +11,8 @@ const Header = () => {
     <div className="z-10 w-full h-auto flex items-center justify-center bg-cover bg-center"
      >
       
-      <div className="z-10 w-[90%] h-auto flex flex-wrap mt-[9%] ">
+      <div className="z-10 w-[90%] h-auto flex flex-wrap 
+      xs:mt-[19%] xsm:mt-[20%] xsl:mt-[20.5%] sm:mt-[9.5%] md:mt-[9.5%] lg:mt-[9%] xl:mt-[9%]">
       
     <div className="w-full md:w-1/2 lg:w-1/4 ">
       <div className="w-full h-[550px] rounded-lg overflow-hidden p-2">
