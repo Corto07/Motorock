@@ -15,7 +15,7 @@ const Home = () => {
       <div className="fixed top-0 left-0 w-full h-full z-0">
         <img
         className="w-full h-full object-cover"
-        src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1715171784/Porfolio/14540_nkv2sb.jpg'
+        src='https://res.cloudinary.com/dhmkge0ia/image/upload/v1718054207/MotoRock/3d-empty-tron-stage-background_yg8pah.jpg'
         ></img>
         
       </div>

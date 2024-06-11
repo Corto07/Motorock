@@ -1,8 +1,4 @@
 import React from "react";
-import Juan from "../../Assets/Juan01.jpg";
-import Marian from "../../Assets/Marian01.jpg";
-import Brujo from "../../Assets/Brujo01.jpg";
-import Pablo from "../../Assets/Pablo01.jpg";
 // import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -16,25 +12,33 @@ const Header = () => {
       
     <div className="w-full md:w-1/2 lg:w-1/4 ">
       <div className="w-full h-[550px] rounded-lg overflow-hidden p-2">
-        <img className="w-full h-[100%] object-cover rounded-lg" src={Juan} alt="Juan"></img>
+        <img className="w-full h-[100%] object-cover rounded-lg" 
+        src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029946/MotoRock/Juan01_gjazzr.jpg" 
+        alt="Juan"></img>
       </div> 
     </div> 
 
     <div className="w-full md:w-1/2 lg:w-1/4 ">
     <div className="w-full h-[550px] rounded-lg overflow-hidden p-2">
-      <img className="w-full h-[100%] object-cover rounded-lg" src={Marian} alt="Marian"></img>
+      <img className="w-full h-[100%] object-cover rounded-lg" 
+      src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029945/MotoRock/Marian01_sxzfms.jpg"
+      alt="Marian"></img>
       </div>
       </div>
 
       <div className="w-full md:w-1/2 lg:w-1/4 "> 
       <div className="w-full h-[550px] rounded-lg overflow-hidden p-2">
-      <img className="w-full h-[100%] object-cover rounded-lg" src={Brujo} alt="Brujo"></img>
+      <img className="w-full h-[100%] object-cover rounded-lg" 
+      src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029946/MotoRock/Brujo01_lcbwie.jpg" 
+      alt="Brujo"></img>
       </div>
  </div>
 
       <div className="w-full md:w-1/2 lg:w-1/4"> 
       <div className="w-full h-[550px] rounded-lg overflow-hidden p-2">
-      <img className="w-full h-[100%] object-cover rounded-lg" src={Pablo} alt="Pablo"></img>
+      <img className="w-full h-[100%] object-cover rounded-lg" 
+      src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029945/MotoRock/Pablo01_mjf9ob.jpg" 
+      alt="Pablo"></img>
       </div>
     </div>
   </div>   
