@@ -49,7 +49,7 @@ function NavBar () {
       </div>
 
         {/* Sidebar */}
-        <div className={`fixed xs:top-[10.3%] xsm:top-[12.2%] xsl:top-[13.7%] sm:hidden left-0 text-white w-96 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
+        <div className={`fixed xs:top-[9%] xsm:top-[9%] xsl:top-[9%] sm:hidden left-0 text-white w-96 h-full transition-transform transform ${sidebarOpen ? 'translate-x-0 ' : '-translate-x-full'} ease-in-out duration-300`}
             style={   
               { 
                 background:
