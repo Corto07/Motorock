@@ -20,17 +20,13 @@ function NavBar () {
 
     return (
 
-    <div className="z-50 fixed w-full h-auto flex items-center justify-center shadow-lg shadow-black"
+    <div className="z-50 fixed w-full h-auto flex items-center justify-center shadow-xl shadow-black"
     style={   
       { 
         background:
         "linear-gradient(to right, black, black, black, transparent, black, black, black)",
       }
       }   
-    
-    // style={{ 
-    //   backgroundImage: "url('https://res.cloudinary.com/dhmkge0ia/image/upload/v1718069333/MotoRock/black-brick-wall-surface-texture_2_ze3ct6.jpg')",    
-    // }}
     >
 
     {/* Burguer Menu */}
@@ -72,23 +68,33 @@ function NavBar () {
             </div>
         </div>
 
-        <div className="bg-transparent
-    xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%]">
-        <img className="xs:w-[50%] xsm:w-[50%] xsl:w-[50%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%]
-        xs:ml-[42%] xsm:ml-[43%] xsl:ml-[43%] sm:ml-[18%] md:ml-[20%] lg:ml-[20%] xl:ml-[18%]"
-        src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029637/MotoRock/Logo_motorock_white_ijbzqp.png" 
-        alt="Logo Motorock"></img>
-    </div>
+        <div className="bg-transparent 
+          xs:w-[100%] xsm:w-[100%] xsl:w-[100%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%]">
+          <a href="#home" rel="noreferrer">
+          <img className="transition hover:scale-110 duration-500 cursor-pointer
+          xs:w-[50%] xsm:w-[50%] xsl:w-[50%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%]
+          xs:ml-[42%] xsm:ml-[43%] xsl:ml-[43%] sm:ml-[18%] md:ml-[20%] lg:ml-[20%] xl:ml-[18%]"
+          src="https://res.cloudinary.com/dhmkge0ia/image/upload/v1718029637/MotoRock/Logo_motorock_white_ijbzqp.png" 
+          alt="Logo Motorock"></img>
+          </a>
+        </div>
     
     <div className="w-[70%] hidden sm:block font-Fuente1 font-semibold italic bg-transparent sm:flex sm:items-center sm:justify-end 
     sm:text-[20px] md:text-[20px] lg:text-[28px] xl:text-[32px]">
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection"  href="/const" rel="noreferrer">Nosotros</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection"  href="/" rel="noreferrer">Shows</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection" href="/" rel="noreferrer">Discografía</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection" href="/" rel="noreferrer">Fotos</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection" href="/" rel="noreferrer">Videos</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection" href="/" rel="noreferrer">Eventos</a>
-      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection sm:mr-11 md:mr-11 lg:mr-16 xl:mr-16" href="/" rel="noreferrer">Contacto</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700 
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]"  href="#home" rel="noreferrer">Nosotros</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]"  href="#shows" rel="noreferrer">Shows</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]" href="#discografia" rel="noreferrer">Discografía</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]" href="#fotos" rel="noreferrer">Fotos</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]" href="#videos" rel="noreferrer">Videos</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]" href="#eventos" rel="noreferrer">Eventos</a>
+      <a className=" text-white sm:px-1 md:px-2 lg:px-2 xl:px-3 reflection hover:text-red-700 sm:mr-11 md:mr-11 lg:mr-16 xl:mr-16
+      transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-red-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-[-30%] before:left-[45%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-red-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-[-15%] after:right-[40%]" href="#contacto" rel="noreferrer">Contacto</a>
     </div>
 
 </div>
